@@ -1,0 +1,1 @@
+select Current Industry/Domain from data where Current Salary > avg(Current Salary);

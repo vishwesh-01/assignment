@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hey Bro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-left">
+                    <div class="logo" onclick="showPage('home')">
+                        <span>Bro-Connect</span>
+                    </div>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search users, posts, or groups..." id="searchInput">
+                    </div>
+                </div>
+                
+                <div class="nav-right">
+                    <a href="#" class="nav-link" onclick="showPage('home')">
+                        <span>Home</span>
+                    </a>
+                    <a href="#" class="nav-link" onclick="showPage('profile')">
+                        <span>Profile</span>
+                    </a>
+                    <a href="#" class="nav-link" onclick="showPage('friends')">
+                        <span>Friends</span>
+                    </a>
+                    <a href="#" class="nav-link" onclick="showPage('messages')">
+                        <span>Messages</span>
+                    </a>
+                    <a href="#" class="nav-link" onclick="toggleNotifications()">
+                        <span>Notifications</span>
+                    </a>
+                    <button class="logout-btn" onclick="logout()">
+                        Logout
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+</body>
+</html>
